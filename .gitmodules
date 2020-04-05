@@ -1,3 +1,6 @@
 [submodule "themes/reveal-hugo"]
 	path = themes/reveal-hugo
 	url = ./../../dzello/reveal-hugo.git
+[submodule "themes/code-snippets"]
+	path = themes/code-snippets
+	url = ./../../MetalBlueberry/code-snippets
