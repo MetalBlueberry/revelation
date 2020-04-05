@@ -1,8 +1,8 @@
 +++
-title = "My presentation"
+title = "Revelation Hello World"
 outputs = ["Reveal"]
 +++
 
-# Hello world!
+## Hello world
 
-This is my first slide.
+This is my first slide
