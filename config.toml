@@ -1,0 +1,13 @@
+baseURL = "https://revelation.github.io/"
+languageCode = "en-us"
+title = "Revelation project template"
+
+theme = ["reveal-hugo"]
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[outputFormats.Reveal]
+baseName = "index"
+mediaType = "text/html"
+isHTML = true
