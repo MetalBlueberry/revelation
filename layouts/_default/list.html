@@ -1,0 +1,13 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  {{/* {{ range where .Site.Pages "Type" "presentations" }} */}}
+    {{/* {{ range .Site.Pages }} */}}
+    {{ range where .Pages "Type" "in" site.Params.mainSections }}
+    <a href="{{ .RelPermalink }}">
+    <article>
+      <h2>{{ .Title }}</h2>
+      {{ .Summary }}
+    </article>
+    </a>
+  {{ end }}
+{{ end }}
